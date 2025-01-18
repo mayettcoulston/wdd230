@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Coulston Mayett] - WDD230 - Web Frontend Development</title>
+    <meta name="Description" content="Coulston Mayett 230 - Web Frontend Development - course assignment portal">
+    <meta name="author" content="Coulston Mayett">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/coulston_pic.jpg" alt="coulston_pic">
+        <span>Coulston Mayett</span>
+    </header>
+
+    <nav>
+        <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li><a href="#">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="card">
+            <h1>WDD230: Web Frontend Development</h1>
+            <section>
+                <h2>Learning Activities</h2>
+                <ul class="course-links">
+                    <li><a href="#">Activity 1</a></li>
+                    <li><a href="#">Activity 2</a></li>
+                    <li><a href="#">Activity 3</a></li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Information</h2>
+                <p>Weather: <span id="weather">Weather information</span></p>
+                <p>Number of visits: <span id="visits">Visits count</span></p>
+            </section>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2025
+            Coulston Mayett
+            Kenya, Nairobi
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    <script src="scripts/getDates.js"></script>   
+</body>
+</html>

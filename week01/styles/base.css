@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Tapestry&display=swap');
+
+:root {
+    --heading-font: "Tapestry";
+    --paragraph-font: Roboto, Helvetica, Sans-serif;
+}
+
+main {
+    max-width: 740px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: darkred;
+}
+
+span {
+    color: white;
+    font-size: larger;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(185, 159, 9);
+}
+
+nav a:hover {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+nav .active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card{
+    margin: 1rem 2vw;
+}
+
+.card section{
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem;
+}
+
+.card p, h2, ul {
+    padding: 10px;
+    color: white;
+}

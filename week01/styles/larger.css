@@ -1,0 +1,15 @@
+
+@media(min-width:640px) {
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+    .card {
+        display: grid;
+        grid-template-columns: 2fr, 1fr;
+        column-gap: 10px;
+    }
+    .card section {
+        box-shadow: gray;
+    }
+}
