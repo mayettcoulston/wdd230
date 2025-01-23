@@ -35,8 +35,8 @@ article p {
 }
 
 .callout {
-	color: hsla(200, 0%, 0%, .7);
-	background-color: white;
+	color: #fff;
+	background-color: #702970;
     padding: auto;
 }
 
