@@ -1,7 +1,15 @@
 @media screen and (min-width: 640px) {
-    nav ul {
+    #myButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open {
         display: flex;
-        justify-content: center;
+        justify-content:center;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
     }
 
     .card {

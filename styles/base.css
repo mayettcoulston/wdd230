@@ -30,17 +30,54 @@ nav{
     justify-content: space-around;
 }
 
-nav ul li a {
+#myButton::before{
+    content: "\2630";
+}
+
+#myButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: fff;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: .25rem 2vw;
+}
+
+ul.menuLinks li a {
+    display: block;
     color: white;
     font-weight: bold;
-    padding: 0.3rem 3.5rem;
-  }
+    padding: .75rem 2vw;
+    text-decoration: none;
+}
+
+ul.menuLinks{
+    list-style-type: none;
+}
+
+#myButton.open::before{
+    content: "X";
+}
+
+nav {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.5s ease-out;
+}
+
+nav ul {overflow: hidden;}
+
+nav.open {
+    grid-template-rows: 1fr;
+}
 
 nav a:hover {
     display: block;
     background-color: rgba(255, 255, 255, 0.2);
 }
-nav .active {
+li.active {
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 2px;
 }
