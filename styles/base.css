@@ -64,7 +64,7 @@ ul.menuLinks{
 .dark-mode {
     background-color: #222;
     color: white;
-    text-align: right;
+    text-align: left;
     cursor: pointer;
 }
 
