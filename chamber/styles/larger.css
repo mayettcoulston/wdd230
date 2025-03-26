@@ -1,0 +1,37 @@
+@media screen and (min-width: 640px) {
+
+    #pressButton {
+        display: none;
+    }
+
+    ul.menuLinks, ul.menuLinks.open {
+        display: flex;
+        justify-content:center;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .hero {
+        display: grid;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr; 
+        column-gap: 5px; 
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr;
+        column-gap: 5px;
+    }
+
+    .cards section {
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+        padding: 15px;
+    }
+}
