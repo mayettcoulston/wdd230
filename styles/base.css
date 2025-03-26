@@ -61,6 +61,17 @@ ul.menuLinks{
     content: "X";
 }
 
+.dark-mode {
+    background-color: #222;
+    color: white;
+    text-align: right;
+    cursor: pointer;
+}
+
+.dark-mode header {
+    background-color: #444;
+}
+
 nav {
     display: grid;
     grid-template-rows: 0fr;
