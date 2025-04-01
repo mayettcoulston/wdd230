@@ -22,7 +22,7 @@ header, footer {
     font-size: 2rem;
     background: none;
     border: none;
-    color: fff;
+    color: #fff;
     cursor: pointer;
     width: 100%;
     text-align: left;
@@ -109,3 +109,43 @@ h2, h3 {
   h4 {
     text-align: left;
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 20px;
+  }
+
+  .sidebar {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    transition: opacity 1s;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    background: #000;
+    animation: fade 15s;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

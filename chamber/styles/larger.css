@@ -1,5 +1,4 @@
 @media screen and (min-width: 640px) {
-
     #pressButton {
         display: none;
     }
@@ -8,10 +7,14 @@
         display: flex;
         justify-content:center;
     }
-    
+
     nav ul {
         display: flex;
         justify-content: space-evenly;
+    }
+
+    nav {
+        grid-template-rows: 1fr;
     }
 
     .hero {
@@ -33,5 +36,17 @@
     .cards section {
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
         padding: 15px;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .sidebar {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery {
+        grid-template-columns: 2fr;
     }
 }
