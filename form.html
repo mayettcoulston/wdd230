@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coulston Mayett WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Coulston Mayett WDD 230 - Web Frontend Development">
+    <meta name="author" content="Coulston Mayett">
+
+    <meta property="og:title" content="Nairobi Chamber of Commerce">
+    <meta property="og:type" content="article" >
+    <meta property="og:image" content="https://safariherd.co.ke/wp-content/uploads/2021/10/Best-of-Nairobi-City-Tour-1536x640.jpg">
+    <meta property="og:url" content="https://safariherd.co.ke/nairobi-city-safari/">
+
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="images/coulston_pic.jpg" alt="coulston_pic">
+        <span>Coulston Mayett</span>
+        <button id="myButton"></button>
+        <button id="darkMode">🌙 Dark Mode</button>
+    </header>
+
+    <nav id="animatedMe">
+        <ul class="menuLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="chamber/index.html">Chamber</a></li>
+            <li><a href="#">Site Plan</a></li>
+            <li class="active"><a href="form.html">Form</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form method="get" action="record.html" class="student">
+            <fieldset>
+                <label>Username* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="password" id="pwd1" name="pwd" required 
+                    pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and alphanumeric"></label>
+                <label>Confirm password* <input type="password" id="pwd2" name="pwd" required 
+                    pattern="[A-Za-z0-9]{8,}" title="Password must be at least 8 characters long and alphanumeric"></label>
+                <label>Email* <input type="email" id="email" name="email" required 
+                    pattern="[a-zA-Z0-9._%+\-]+@byui\.edu" title="Please enter a valid email address"></label>
+                <label>Rating <input type="range" id="rating" name="ratting" min="1" max="10" step="1" value="5"></label>
+            </fieldset>
+
+            <input type="submit" value="log in">
+
+            <div id="feedback"></div>
+        </form>
+    
+    </main>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7931548016427!2d36.754060173727524!3d-1.2988750356374028!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a416d55fb21%3A0x6f7de4c9b545dcb5!2sDagoretti%20Corner!5e0!3m2!1sen!2ske!4v1743281183092!5m2!1sen!2ske" load ="lazy" width="380" height="190" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <footer>
+        <p>&copy; 2025
+            Coulston Mayett,
+            Kenya, Nairobi
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/formvalidation.js"></script>
+    
+</body>
+</html>

@@ -1,1 +1,1 @@
-todayDisplay.textContent = new Date().toLocaleDateString();
+/*todayDisplay.textContent = new Date().toLocaleDateString();*/
