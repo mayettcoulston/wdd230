@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Chamber of Commerce</title>
+    <meta name="description" content="Nairobi Chamber of Commerce">
+    <meta name="author" content="Coulston Mayett">
+
+    <meta property="og:type" content="article" >
+    <meta property="og:image" content="https://safariherd.co.ke/wp-content/uploads/2021/10/Best-of-Nairobi-City-Tour-1536x640.jpg">
+    <meta property="og:url" content="https://safariherd.co.ke/nairobi-city-safari/">
+
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <h1>Nairobi Chamber of Commerce</h1>
+        <button id="pressButton"></button>
+    </header>
+
+    <nav id="transition">
+        <ul class="menuLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="discover.html"></a>Discover</li>
+            <li><a href="#"></a>Directory</li>
+            <li class="active"><a href="join.html"></a>Join</li>
+        </ul>
+    </nav>
+
+    <main>
+       <form method="get" action="thankyou.html" class="f1">
+        <fieldset>
+            <label>First Name* <input type="text" id="fname" name="fname" required></label>
+            <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+            <label >Tittle <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" /></label>
+            <label>Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com"required></label>
+            <label>Phone <input type="tel" id="phone" name="phone" required /></label>
+            <label>Business/Organization's name <input type="text" id="org" name="org" required /></label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Membership Level:</legend>
+            <label><input type="radio" name="membership" value="np" required /> NP Membership (Free)</label>
+            <label><input type="radio" name="membership" value="bronze" /> Bronze Membership</label>
+            <label><input type="radio" name="membership" value="silver" /> Silver Membership</label>
+            <label><input type="radio" name="membership" value="gold" /> Gold Membership</label>
+          </fieldset>
+
+          <label>Business Description: <textarea id="description" name="description" rows="5"></textarea></label>
+
+          <input type="hidden" id="timestamp" name="timestamp" />
+
+          <input type="submit" value="Join The Chamber">
+       </form>
+
+       <aside class="membership-benefits">
+        <h2>Membership Benefits</h2>
+        <ul>
+          <li><strong>NP:</strong> Access to events and community support (Free)</li>
+          <li><strong>Bronze:</strong> Event discounts and newsletter feature</li>
+          <li><strong>Silver:</strong> Includes Bronze + spotlight ad on home page</li>
+          <li><strong>Gold:</strong> All benefits + exclusive networking and training</li>
+        </ul>
+      </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2025
+            Nairobi Chamber of Commerce
+            Coulston Mayett,
+            WDD 230
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    <script src="scripts/getDate.js"></script>
+    <script src="scripts/scripts.js"></script>
+</body>
+</html>
