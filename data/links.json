@@ -1,0 +1,97 @@
+{
+    "weeks" : [
+        {
+            "week" : "week1",
+            "links" : [
+                {
+                    "url" : "week01/media-query.html",
+                    "tittle" : "Media Query"
+                },
+                {
+                    "url" : "week01/chamber-site-plan.html",
+                    "tittle" : "Grail"
+                }
+            ]
+        },
+
+        {
+            "week" : "week2",
+            "links" : [
+                {
+                    "url" : "week02/design.html",
+                    "tittle" : "Design"
+                },
+                {
+                    "url" : "week02/bom.html",
+                    "tittle" : "BOM"
+                }
+            ]
+        },
+
+        {
+            "week" : "week3",
+            "links" : [
+                {
+                    "url" : "week03/Images/landscape.webp",
+                    "tittle" : "WebP"
+                },
+                {
+                    "url" : "week03/lazyload.html",
+                    "tittle" : "Lazy"
+                },
+                {
+                    "url" : "week03/responsive-images.html",
+                    "tittle" : "srcset"
+                },
+                {
+                    "url" : "week03/bom.html",
+                    "tittle" : "LocalStorage"
+                }
+            ]
+        },
+
+        {
+            "week" : "week4",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/mayettcoulston/pen/WbNPQNV",
+                    "tittle" : "Psuedo"
+                },
+                {
+                    "url" : "week04/images/combinator.png",
+                    "tittle" : "Combinator"
+                },
+                {
+                    "url" : "week04/tablebuild.html",
+                    "tittle" : "Tables"
+                },
+                {
+                    "url" : "form-start/Form-start/index.html",
+                    "tittle" : "Forms"
+                }
+            ]
+        },
+
+        {
+            "week" : "week5",
+            "links" : [
+                {
+                    "url" : "https://codepen.io/blazzard-jason/pen/LYjLRqN",
+                    "tittle" : "PsuedoElement"
+                },
+                {
+                    "url" : "week05/new-ward-members.json",
+                    "tittle" : "JSON"
+                },
+                {
+                    "url" : "week05/prophets.html",
+                    "tittle" : "FETCH"
+                },
+                {
+                    "url" : "week05/weather.html",
+                    "tittle" : "APIS"
+                }
+            ]
+        }
+    ]
+}

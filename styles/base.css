@@ -100,11 +100,16 @@ main ul li a {
 
 .card section{
     border: 1px solid gray;
+    color: #fff;
     background-color: black;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card {
+    text-align: center;
 }
 
 .card p, h2 {
