@@ -1,0 +1,28 @@
+{
+    "familyName": "Mayett",
+    "moveInDate": "2012-03-12",
+    "numOfPeople": 4,
+    "visitedByBishopric": true,
+    "members": [
+      {
+        "name": "Doris Mukhunji",
+        "gender": "Female",
+        "birthdate": "1989-07-22"
+      },
+      {
+        "name": "Rodgers Manyali",
+        "gender": "Male",
+        "birthdate": "1991-11-04"
+      },
+      {
+        "name": "Coulston Mayett",
+        "gender": "Male",
+        "birthdate": "1994-02-19"
+      },
+      {
+        "name": "Eunice Mwenesi",
+        "gender": "Female",
+        "birthdate": "1997-08-11"
+      }
+    ]
+  }
