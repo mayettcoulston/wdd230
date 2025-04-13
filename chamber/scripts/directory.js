@@ -2,7 +2,7 @@ const container = document.querySelector('#members-container');
 const gridBtn = document.querySelector('#grid-view');
 const listBtn = document.querySelector('#list-view');
 
-const url = 'data/members.json';
+const url = 'https://mayettcoulston.github.io/wdd230/data/members.json';
 
 async function getMembers() {
     const response = await fetch(url);
