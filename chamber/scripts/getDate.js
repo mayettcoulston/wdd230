@@ -1,4 +1,4 @@
 let today = new Date();
-let dayOfMonth = today.getDate(); 
+let dayOfMonth = today.getDate();
 
-console.log(dayOfMonth);
+console.log(today.toDateString());

@@ -98,6 +98,17 @@ main section {
     display: block;
   }
 
+  .hero span {
+    color: black;
+    position: absolute;
+    font-weight: bold;
+    bottom: 40%;
+    left: 20px;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+  }
+
 .cards section{
     background-color: rgb(212, 212, 212);
     border-radius: 10px;
@@ -360,3 +371,35 @@ figure h3 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     text-align: center;
 }
+
+/*events*/
+.currentEvents {
+  background-color: #f0f4f9;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.currentEvents li {
+    background-color: #ffffff;
+    border-left: 4px solid rgba(2, 2, 61, 0.89);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .currentEvents li strong {
+    display: block;
+    font-size: 1.2rem;
+    color: #000;
+    margin-bottom: 0.3rem;
+  }
+
+  .currentEvents li em {
+    display: block;
+    color: #444;
+    font-style: normal;
+    margin-bottom: 0.2rem;
+  }
