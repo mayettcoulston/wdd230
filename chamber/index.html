@@ -25,21 +25,28 @@
     <nav id="transition">
         <ul class="menuLinks">
             <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="discover.html"></a>Discover</li>
-            <li><a href="directory.html"></a>Directory</li>
-            <li><a href="join.html"></a>Join</li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
         </ul>
     </nav>
+
+    <div id="meet-banner" class="banner hidden">
+        <p> Join us for the Chamber of Commerce Meet and Greet — Wednesday at 7:00 p.m.</p>
+        <span class="close-banner">❌</span>
+      </div>
 
     <main>
         <h2>Welcome to The Nairobi Chamber of Commerce where dreams Transform to reality.</h2>
         <section class="hero">
-            <img id="hero-image" src="" alt="hero image">
+            <picture>
+                <source media="(max-width: 500px)" srcset="images\hero-small.webp">
+                <source media="(max-width: 1000px)" srcset="images\hero-medium.webp">
+                <img src="images/hero-large.webp" alt="image setting" width="1500" height="750">
+            </picture>
             <h3>###</h3>
             <p>#####</p>
         </section>
-
-        <section class="cta">###</section>
 
         <div class="container">
             <section class="currentEvents">
@@ -48,26 +55,26 @@
 
             <section class="weather">
                 <h3>Current Weather</h3>
+                <div class="weather-card">
+                    <p>Current Temperature: <span id="current-temp"></span></p>
+                    <figure>
+                      <img id="weather-icon" src="" alt="Weather Icon">
+                      <figcaption id="caption"></figcaption>
+
+                      <h3>3-Day Forecast</h3>
+                      <ul id="forecast"></ul>
+                    </figure>
+                  </div>
+            </section>
+
+            <section class="visit">
+                <p id="visitMessage"></p>
             </section>
         </div>
 
         <section class="spotlight">
             <h3>Spotlight Businesses</h3>
-            <div class="cards">
-                <section>
-                    <h4>###</h4>
-                    <p>#####</p>
-                </section>
-
-                <section>
-                    <h4>###</h4>
-                    <p>#####</p>
-                </section>
-
-                <section>
-                    <h4>###</h4>
-                    <p>#####</p>
-                </section>
+            <div class="cards" id="spotlight-container">
             </div>
         </section>        
     </main>
@@ -83,5 +90,6 @@
     
     <script src="scripts/getDate.js"></script>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>

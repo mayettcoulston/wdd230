@@ -5,7 +5,7 @@
           "address": "123 Sunrise Ave, Sweet Town",
           "phone": "555-123-4567",
           "website": "https://www.roam-electric.com/",
-          "image": "sunrise.jpg",
+          "image": "roam.png",
           "membership": "Gold",
           "description": "The standard for electric mobility in Africa"
         },
@@ -25,7 +25,7 @@
             "address": "123 Sunrise Ave, Sweet Town",
             "phone": "555-123-4567",
             "website": "https://www.apolloagriculture.com/",
-            "image": "",
+            "image": "appolo.png",
             "membership": "Bronze",
             "description": "Company that helps small-scale farmers access markets"
           },
