@@ -15,7 +15,7 @@
           "address": "456 Silicon Blvd, Innoville",
           "phone": "555-987-6543",
           "website": "https://sunking.com/",
-          "image": "sunrise.jpg",
+          "image": "Sun-King.webp",
           "membership": "Silver",
           "description": "Powering access to brighter lives in Africa and beyond"
         },
@@ -25,7 +25,7 @@
             "address": "123 Sunrise Ave, Sweet Town",
             "phone": "555-123-4567",
             "website": "https://www.apolloagriculture.com/",
-            "image": "appolo.png",
+            "image": "apollo.png",
             "membership": "Bronze",
             "description": "Company that helps small-scale farmers access markets"
           },
@@ -35,7 +35,7 @@
             "address": "123 Sunrise Ave, Sweet Town",
             "phone": "555-123-4567",
             "website": "https://www.nala.com/",
-            "image": "sunrise.jpg",
+            "image": "nala.jpg",
             "membership": "Silver",
             "description": "A new kind of money transfer for Africans worldwide"
           },
@@ -45,7 +45,7 @@
             "address": "Parklands, Nairobi",
             "phone": "555-123-4567",
             "website": "https://www.sanergy.com/",
-            "image": "sunrise.jpg",
+            "image": "sanegy.png",
             "membership": "Gold",
             "description": "Building healthy, prosperous communities"
           },
@@ -55,7 +55,7 @@
             "address": "123 Sunrise Ave, Sweet Town",
             "phone": "555-123-4567",
             "website": "https://www.lami.world/",
-            "image": "sunrise.jpg",
+            "image": "lami.png",
             "membership": "Gold",
             "description": "Baking your favorite bread since 1980"
           },
@@ -65,7 +65,7 @@
             "address": "123 Sunrise Ave, Sweet Town",
             "phone": "555-123-4567",
             "website": "https://sunrisebakery.com",
-            "image": "sunrise.jpg",
+            "image": "sunrise.png",
             "membership": "Silver",
             "description": "Baking your favorite bread since 1980"
           }
